@@ -2,85 +2,139 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ishwari Khelwane | Resume</title>
+    <title>Ishwari Khelwane | Creative Resume</title>
     <link rel="stylesheet" href="style.css">
 
     <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- NAVBAR -->
-    <nav>
-        <h2>Ishwari Khelwane</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#experience">Experience</a></li>
-        </ul>
-    </nav>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <h2 class="logo">Ishwari ✨</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#achievements">Wins</a></li>
+        <li><a href="#projects">Experiences</a></li>
+        <li><a href="#contact">Connect</a></li>
+    </ul>
+</nav>
 
-    <!-- HEADER -->
-    <header>
-        <h1>Hello, I'm Ishwari 👋</h1>
-        <p>BBA DBE Student at IIM Bangalore | B.Com Student</p>
-    </header>
-
-    <!-- ABOUT -->
-    <section id="about" class="card">
-        <h2>About Me</h2>
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm Ishwari Khelwane 👩‍💻</h1>
         <p>
-            I am a motivated student pursuing BBA DBE from IIM Bangalore along with a B.Com degree. 
-            I am passionate about learning, creativity, and exploring opportunities in business and innovation.
+            BBA DBE @ IIM Bangalore | B.Com Student | Future Entrepreneur 🚀
         </p>
-    </section>
+        <button onclick="scrollToSection()">Explore My Journey</button>
+    </div>
+</section>
 
-    <!-- EDUCATION -->
-    <section id="education" class="card">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>BBA DBE</strong> – IIM Bangalore</li>
-            <li><strong>B.Com</strong> – IBP College</li>
-            <li>12th HSC – 78%</li>
-            <li>10th SSC – 95%</li>
-            <li>CGPA (B.Com Term 1): 8.91</li>
-        </ul>
-    </section>
+<!-- ABOUT -->
+<section id="about" class="section glass">
+    <h2>About Me</h2>
+    <p>
+        I’m a curious and driven student from Chhatrapati Sambhajinagar, Maharashtra, currently pursuing 
+        BBA DBE from IIM Bangalore along with B.Com. I love combining creativity with business thinking.
+        
+        From scoring perfect marks in Sanskrit to organizing workshops and exploring entrepreneurship,
+        I believe in learning by doing and constantly evolving.
+    </p>
+</section>
 
-    <!-- ACHIEVEMENTS -->
-    <section id="achievements" class="card">
-        <h2>Achievements</h2>
-        <ul>
-            <li>100/100 in Sanskrit (10th & 12th)</li>
-            <li>School topper in Marathi (96 marks)</li>
-            <li>Sanskrit topper (School & College)</li>
-            <li>Government Merit Scholarship (5th & 8th)</li>
-            <li>Homi Bhabha Scientist Exam – Round 2</li>
-            <li>Bronze Medal – Sanskrit Olympiad</li>
-            <li>2nd Prize – Junk Art Event (Unmaad)</li>
-        </ul>
-    </section>
+<!-- JOURNEY -->
+<section id="journey" class="section">
+    <h2>My Academic Journey 🎓</h2>
 
-    <!-- EXPERIENCE -->
-    <section id="experience" class="card">
-        <h2>Experience & Activities</h2>
-        <ul>
-            <li>Started Diwali Corporate Gift Venture (entrepreneurial learning)</li>
-            <li>Conducted Vision Board Workshop (22 participants)</li>
-            <li>Participated in Canvas Collective</li>
-            <li>Selected for AI Startup Internship</li>
-            <li>Worked on multiple case competitions</li>
-        </ul>
-    </section>
+    <div class="cards">
+        <div class="card">
+            <h3>10th SSC</h3>
+            <p>95% | 100/100 in Sanskrit | Marathi Topper (96)</p>
+        </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2026 Ishwari Khelwane</p>
-    </footer>
+        <div class="card">
+            <h3>12th HSC</h3>
+            <p>78% | 100/100 in Sanskrit</p>
+        </div>
 
-</body>
-</html>  
+        <div class="card">
+            <h3>B.Com</h3>
+            <p>IBP College | 8.91 CGPA (Term 1)</p>
+        </div>
+
+        <div class="card">
+            <h3>BBA DBE</h3>
+            <p>IIM Bangalore | Business & Digital Focus</p>
+        </div>
+    </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section glass">
+    <h2>Achievements 🏆</h2>
+    <ul>
+        <li>Government Merit Scholarship (5th & 8th)</li>
+        <li>Homi Bhabha Exam – Selected for Round 2</li>
+        <li>Bronze Medal – Sanskrit Olympiad</li>
+        <li>Sanskrit Topper (School & College)</li>
+        <li>2nd Prize – Junk Art Event (Unmaad)</li>
+    </ul>
+</section>
+
+<!-- PROJECTS / EXPERIENCE -->
+<section id="projects" class="section">
+    <h2>Experiences & Experiments 🚀</h2>
+
+    <div class="cards">
+        <div class="card highlight">
+            <h3>Diwali Venture 🎁</h3>
+            <p>Started a corporate gifting venture. Though it didn’t scale, it taught real-world business lessons.</p>
+        </div>
+
+        <div class="card highlight">
+            <h3>Vision Board Workshop 🎯</h3>
+            <p>Conducted a workshop with 22 participants in Sambhajinagar.</p>
+        </div>
+
+        <div class="card highlight">
+            <h3>Creative Participation 🎨</h3>
+            <p>Participated in Canvas Collective and multiple creative events.</p>
+        </div>
+
+        <div class="card highlight">
+            <h3>AI Startup Internship 🤖</h3>
+            <p>Selected for internship + actively working on case competitions.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section glass">
+    <h2>Let's Connect 💬</h2>
+
+    <p><strong>📍 Location:</strong> Chhatrapati Sambhajinagar, Maharashtra</p>
+    <p><strong>📞 Phone:</strong> 9423153829</p>
+
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/ishwari-khelwane-b4190b386" target="_blank">LinkedIn</a>
+        <a href="https://instagram.com/itsishaactually" target="_blank">Instagram</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>Built with 💙 by Ishwari</p>
+</footer>
+
+<script>
+function scrollToSection() {
+    document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+}
+</script>
 /* RESET */
 * {
     margin: 0;
@@ -90,80 +144,109 @@
 
 /* BODY */
 body {
-    font-family: 'Poppins', sans-serif;
-    background: #f5f7fa;
-    color: #333;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: white;
 }
 
 /* NAVBAR */
-nav {
-    background: #2c3e50;
-    color: white;
+.navbar {
     display: flex;
     justify-content: space-between;
-    padding: 15px 40px;
-    align-items: center;
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    backdrop-filter: blur(10px);
 }
 
-nav ul {
-    list-style: none;
+.navbar ul {
     display: flex;
     gap: 20px;
+    list-style: none;
 }
 
-nav a {
+.navbar a {
     color: white;
     text-decoration: none;
-    font-weight: 500;
 }
 
-nav a:hover {
-    color: #1abc9c;
-}
-
-/* HEADER */
-header {
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 50px;
-    background: linear-gradient(to right, #1abc9c, #16a085);
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #ff7eb3;
     color: white;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-header h1 {
-    font-size: 40px;
+/* SECTIONS */
+.section {
+    padding: 60px 10%;
 }
 
-header p {
-    margin-top: 10px;
-    font-size: 18px;
+/* GLASS EFFECT */
+.glass {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
 }
 
-/* CARD SECTIONS */
+/* CARDS */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 .card {
     background: white;
-    margin: 30px auto;
-    padding: 25px;
-    width: 80%;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.highlight {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
+
+/* CONTACT */
+.socials a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: white;
+    color: black;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-/* HEADINGS */
-.card h2 {
-    margin-bottom: 15px;
-    color: #2c3e50;
-}
-
-/* LIST */
-.card ul {
-    line-height: 1.8;
+    text-decoration: none;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
-    background: #2c3e50;
-    color: white;
-    margin-top: 30px;
 }
+
+</body>
+</html>
